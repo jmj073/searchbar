@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html style="position: relative;">
+  <head>
+    <meta charset="utf-8">
+    <title>Search Bar</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="searchbar.css">
+  </head>
+  <body>
+    <form action="https://www.google.com/search" method="GET">
+      <div class="search-bar input-group mb-3" id="search-bar1">
+        <input name="q" type="text" class="rounded-pill form-control" placeholder="Gogle 검색 또는 URL입력" aria-label="Recipient's username" aria-describedby="button-addon2">
+      </div>
+    </form>
+    <form action="https://search.naver.com/search.naver" method="GET">
+      <div class="input-group mb-3 max-auto">
+        <input id="search-bar2" name="query" title="검색어 입력" tabindex="1" accesskey="s" style="ime-mode:active;" autocomplete="off" onclick="document.getElementById('fbm').value=1;" value="" type="text" placeholder="검색어 입력" aria-label="Recipient's username" aria-describedby="button-addon2">
+        <div class="input-group-append">
+          <!--<button class="btn btn-outline-secondary" type="submit" id="button-addon2" id="search_btn" type="submit" title="검색" tabindex="3" class="btn_submit" onclick="window.nclick(this,'sch.action','','',event);" style="">
+            <span class="blind">검색</span>
+            <span class="ico_search_submit"></span>
+          </button>-->
+        </div>
+      </div>
+    </form>
+    <form action="https://www.youtube.com/results" method="GET">
+      <div class="search-bar input-group mb-3 inline">
+        <input id="search-bar3" name="search_query" type="text" placeholder="검색" aria-label="Recipient's username" aria-describedby="button-addon2">
+      </div>
+    </form>
+  </span>
+  </div>
+  </body>
+</html>

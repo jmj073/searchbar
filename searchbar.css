@@ -1,0 +1,40 @@
+#search-bar1 {
+     margin: auto;
+     max-width: 500px;
+     width: 30%;
+     margin-top: 41vh;
+}
+
+#search-bar2 {
+     margin: auto;
+     max-width: 500px;
+     width: 30%;
+     border:solid 2px #19ce60;
+}
+
+#search-bar3 {
+     margin: auto;
+     width: 30%;
+     max-width: 500px;
+     border:solid 1px gray;
+}
+
+#button-addon2{
+     position: absolute;
+     right:0;
+     border:solid 2px #19ce60;
+}
+
+.input-group-append{
+     position: static;
+}
+
+.btgh{
+     margin: auto;
+     width: 70%;
+}
+
+body {
+     background: url("4k_wallpaper_city.jpg") no-repeat fixed ;
+     background-size: cover;
+   }
